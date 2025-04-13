@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to My World Maamey...</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111827;
+      color: white;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    nav {
+      width: 200px;
+      background-color: #1f2937;
+      padding: 20px;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #f472b6;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 36px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #f472b6;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    .iframe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .iframe-card {
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 2px solid #4b5563;
+      background-color: #1f2937;
+    }
+
+    .iframe-card iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="god-of-world.html">🌍 God of World</a>
+    <a href="rules.html">⚖️ Rule</a>
+  </nav>
+
+  <div class="main-content">
+    <div class="heading">Welcome to My World Maamey...</div>
+
+    <div class="iframe-grid">
+      <div class="iframe-card">
+        <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCbOVaOa6WA4gt3UXzHKMsfQ" title="YouTube"></iframe>
+      </div>
+      <div class="iframe-card">
+        <iframe src="https://www.instagram.com/iamkaneendran/embed/" title="Instagram"></iframe>
+      </div>
+      <div class="iframe-card">
+        <iframe src="https://twitter.com/IamKaneendran" title="Twitter"></iframe>
+      </div>
+      <div class="iframe-card">
+        <iframe src="https://www.behance.net/KaneendranK" title="Behance"></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
